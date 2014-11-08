@@ -10,6 +10,8 @@ Follow the instructions below to install ATUSB_Core
 
 You should now have an option for ```ATUSB_32U4_Serial``` in the Boards menu.
 
+For a new, raw ATMega32u4 chip, choose "Burn Bootloader" from the Arduino tools menu to automatically burn the required fuses.
+
 For details on the pin mappings see [core_pins.h](/cores/atusb/core_pins.h)
 
 Once firmware from this core has been uploaded to the device, you should be prompted for driver for AVR USB Serial. Point it to ./drivers/GenericSerialUSB.inf in the ATUSB_Core folder.
